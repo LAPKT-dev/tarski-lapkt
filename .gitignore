@@ -73,3 +73,6 @@ docs/_build
 .ipython
 
 pip-wheel-metadata
+
+# vscode local history
+.history

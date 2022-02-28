@@ -19,15 +19,15 @@ spec.loader.exec_module(version)
 def main():
 
     setup(
-        name='tarski',
+        name='tarski-lapkt',
         version=version.__version__,
         description='Tarski is a framework for the specification, modeling and manipulation of AI planning problems.',
         long_description=long_description,
         long_description_content_type='text/markdown',
 
         url='https://github.com/aig-upf/tarski',
-        author='Miquel Ramírez and Guillem Francès',
-        author_email='guillem.frances@upf.edu',
+        author='Anubhav Singh',
+        author_email='anubhav.singh.er@pm.me',
 
         keywords='planning logic STRIPS RDDL',
         classifiers=[
