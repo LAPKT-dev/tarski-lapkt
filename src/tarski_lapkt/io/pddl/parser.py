@@ -11,11 +11,11 @@ import logging
 
 from ply import yacc
 
-from tarski.syntax import CompoundTerm, Term
-from tarski.io.pddl import Features, supported_features
-from tarski.io.pddl.lexer import PDDLlex
-from tarski.io.pddl.instance import *
-from tarski.io.pddl.errors import *
+from tarski_lapkt.syntax import CompoundTerm, Term
+from tarski_lapkt.io.pddl import Features, supported_features
+from tarski_lapkt.io.pddl.lexer import PDDLlex
+from tarski_lapkt.io.pddl.instance import *
+from tarski_lapkt.io.pddl.errors import *
 
 
 class PDDLparser(object):

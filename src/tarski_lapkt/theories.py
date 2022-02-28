@@ -2,7 +2,7 @@
 from enum import Enum
 from typing import Union, List, Optional
 
-from tarski.errors import DuplicateTheoryDefinition
+from tarski_lapkt.errors import DuplicateTheoryDefinition
 from .syntax.sorts import attach_arithmetic_sorts, build_the_bools
 from .fol import FirstOrderLanguage
 from .syntax import builtins, Term

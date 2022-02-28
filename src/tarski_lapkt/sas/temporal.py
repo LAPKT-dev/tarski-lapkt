@@ -1,8 +1,8 @@
 """
     Temporal (durative) actions for SAS+
 """
-from tarski.syntax import Term, symref
-from tarski.sas import Action
+from tarski_lapkt.syntax import Term, symref
+from tarski_lapkt.sas import Action
 
 
 class TemporalAction(object):

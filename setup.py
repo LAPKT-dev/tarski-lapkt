@@ -11,7 +11,7 @@ with open(os.path.join(root, 'README.md'), encoding='utf-8') as f:
 
 
 # Load the version number from ./src/tarski/version.py
-spec = importlib.util.spec_from_file_location('tsk.version', os.path.join(root, 'src/tarski/version.py'))
+spec = importlib.util.spec_from_file_location('tsk.version', os.path.join(root, 'src/tarski_lapkt/version.py'))
 version = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(version)
 

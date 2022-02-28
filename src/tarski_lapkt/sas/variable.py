@@ -1,9 +1,9 @@
 """
     SAS+ Variables - lean implementation
 """
-from tarski.syntax import Term, symref
-from tarski.syntax.symrefs import TermReference
-from tarski.sas.helper import make_domain
+from tarski_lapkt.syntax import Term, symref
+from tarski_lapkt.syntax.symrefs import TermReference
+from tarski_lapkt.sas.helper import make_domain
 from typing import List, Union
 
 class InvalidValue(Exception):

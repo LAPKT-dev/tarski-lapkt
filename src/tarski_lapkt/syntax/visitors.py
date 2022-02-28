@@ -1,7 +1,7 @@
 
-from tarski.syntax import symref, CompoundFormula, QuantifiedFormula, Atom, CompoundTerm, Variable,\
+from tarski_lapkt.syntax import symref, CompoundFormula, QuantifiedFormula, Atom, CompoundTerm, Variable,\
     CompoundFormula, Connective, Atom, Tautology, symref
-from tarski.syntax.formulas import is_eq_atom
+from tarski_lapkt.syntax.formulas import is_eq_atom
 
 
 class MatchExpression:

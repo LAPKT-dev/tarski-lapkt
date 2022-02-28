@@ -3,9 +3,9 @@
 """
 import random
 
-import tarski as tsk
-from tarski import fstrips as fs
-from tarski.fstrips import DelEffect, AddEffect
+import tarski_lapkt as tsk
+from tarski_lapkt import fstrips as fs
+from tarski_lapkt.fstrips import DelEffect, AddEffect
 from ..fstrips import create_fstrips_problem
 from ..syntax import land
 from ..theories import Theory

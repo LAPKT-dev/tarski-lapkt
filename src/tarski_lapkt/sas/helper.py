@@ -1,7 +1,7 @@
 """
     SAS+ Modeling helper
 """
-from tarski.syntax import Term, symref, land
+from tarski_lapkt.syntax import Term, symref, land
 from typing import List
 
 

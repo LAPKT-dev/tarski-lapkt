@@ -11,14 +11,14 @@ from collections import namedtuple, OrderedDict
 from typing import Tuple
 from enum import Enum
 
-import tarski as tsk
-from tarski.io.pddl.errors import UnsupportedFeature
-from tarski.theories import Theory
-from tarski.syntax import Variable, Sort
-from tarski.syntax import neg, land
-from tarski.syntax.formulas import lor, Quantifier, QuantifiedFormula
-from tarski.syntax.sorts import Interval, int_encode_fn
-from tarski.syntax import symref
+import tarski_lapkt as tsk
+from tarski_lapkt.io.pddl.errors import UnsupportedFeature
+from tarski_lapkt.theories import Theory
+from tarski_lapkt.syntax import Variable, Sort
+from tarski_lapkt.syntax import neg, land
+from tarski_lapkt.syntax.formulas import lor, Quantifier, QuantifiedFormula
+from tarski_lapkt.syntax.sorts import Interval, int_encode_fn
+from tarski_lapkt.syntax import symref
 
 
 AssignmentEffectData = namedtuple('AssignmentEffectData', ['lhs', 'rhs'])

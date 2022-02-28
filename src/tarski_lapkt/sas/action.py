@@ -6,8 +6,8 @@
         - Representation of action costs is not baked into the class
 """
 from typing import Union
-from tarski.syntax import Term, symref
-from tarski.sas.variable import Variable
+from tarski_lapkt.syntax import Term, symref
+from tarski_lapkt.sas.variable import Variable
 
 
 class InvalidEffectDefinition(Exception):
