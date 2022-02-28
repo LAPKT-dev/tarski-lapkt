@@ -20,7 +20,7 @@ def main():
 
     setup(
         name='tarski-lapkt',
-        version=version.__version__,
+        version='0.1.2',
         description='Tarski is a framework for the specification, modeling and manipulation of AI planning problems.',
         long_description=long_description,
         long_description_content_type='text/markdown',
